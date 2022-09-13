@@ -1,15 +1,15 @@
-.slides > article.current {
+.layout-regular > article.current {
   width:85%;
   left:5%;
   margin-left: 0px;
 }
 
 
-.slides > article.next {
+.layout-regular > article.next {
   display: none;
 }
 
-.slides > article.past {
+.layout-regular > article.past {
   display: none;
 }
 
@@ -18,12 +18,40 @@ body {
 }
 
 .slides > article {
-  color: rgb(0, 33, 71)
+  color: rgb(0, 33, 71);
 }
 
 h1, h2, h3 {
-  color: rgb(117,178,221);
+  color: rgb(0, 33, 71);
 }
+
+
+.title h1, h2, h3 {
+  color: rgb(117,178,221);
+  text-align: center;
+}
+
+
+
+q::after{
+  margin-top: 0.5em;
+  color: rgb(199,147,22);
+}
+
+q::before{
+  color: rgb(199,147,22);
+}
+
+div.tip p.admonition-title::before{
+  content: '\1F4A1';
+  color :rgb(199,147,22);
+}
+
+/* console */
+.table h1 {
+  margin-top: 0px;
+}
+
 
 /* for slides2 */
 slide hgroup{
@@ -32,15 +60,4 @@ slide hgroup{
 
 slide article{
   font-size:150%;
-}
-
-
-q::after{
-  margin-top: 0.5em;
-  color: rgb(199,147,22);
-}
-
-div.tip p.admonition-title::before{
-  content: '\1F4A1';
-  color :rgb(199,147,22);
 }

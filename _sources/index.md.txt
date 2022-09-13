@@ -1,7 +1,8 @@
-# Incorporating Ethics into Data Science Courses
+```{slide} Integrating Ethics into Data Science Courses
+:class: title
+```
 
-
-```{slide} Warm Up
+```{slide}
 
 > Do you practice ethical data science?
 
@@ -13,7 +14,7 @@ How did you learn to do that?
 ```
 
 
-```{slide}
+```{ifnotslides}
 
 Did you have formal data ethics training?
 
