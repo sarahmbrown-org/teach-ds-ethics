@@ -138,7 +138,7 @@ nb_render_priority = {
         )
 }
 
-slide_theme = 'single-level'
+slide_theme = 'slides'
 
 slide_theme_options = {
     'presenters': [
