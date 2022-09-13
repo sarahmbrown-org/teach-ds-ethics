@@ -1,0 +1,45 @@
+.slides > article.current {
+  width:85%;
+  left:5%;
+  margin-left: 0px;
+}
+
+.slides > article.next {
+  display: none;
+}
+
+.slides > article.past {
+  display: none;
+}
+
+body {
+  background: rgb(0, 33, 71);
+}
+
+.slides > article {
+  color: rgb(0, 33, 71)
+}
+
+h1, h2, h3 {
+  color: rgb(117,178,221);
+}
+
+/* for slides2 */
+slide hgroup{
+  font-size: 175%;
+}
+
+slide article{
+  font-size:150%;
+}
+
+
+q::after{
+  margin-top: 0.5em;
+  color: rgb(199,147,22);
+}
+
+div.tip p.admonition-title::before{
+  content: '\1F4A1';
+  color :rgb(199,147,22);
+}

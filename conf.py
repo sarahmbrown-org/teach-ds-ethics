@@ -41,6 +41,7 @@ extensions = [
     "sphinxcontrib.bibtex",
     "sphinxext.opengraph",
     'hieroglyph',
+    "sphinx_revealjs",
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -59,7 +60,8 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'pydata_sphinx_theme'
+html_theme = 'sphinx_book_theme'
+# 'pydata_sphinx_theme'
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
@@ -123,5 +125,33 @@ nb_render_priority = {
             "text/markdown",
             "text/latex",
             "text/plain",
+        ),
+  "revealjs": (
+            "application/vnd.jupyter.widget-view+json",
+            "application/javascript",
+            "text/html",
+            "image/svg+xml",
+            "image/png",
+            "image/jpeg",
+            "text/markdown",
+            "text/latex",
+            "text/plain",
         )
 }
+
+slide_theme = 'single-level'
+
+slide_theme_options = {
+    'presenters': [
+        {
+            'name': 'Sarah M Brown',
+            'twitter': '@brownsarahm',
+            'www': 'http://sarahmbrown.org',
+            'github': 'http://github.com/brownsarahm/'
+        },
+    ],
+    'custom_css': 'custom.css'}
+
+
+def setup(app):
+    app.add_css_file('_static/custom.css')
