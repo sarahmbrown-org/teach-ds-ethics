@@ -35,13 +35,14 @@ release = '2022.09.10'
 # ones.
 extensions = [
     "myst_nb",
-    "ablog",
     'sphinx.ext.intersphinx',
     "sphinx_panels",
     "sphinxcontrib.bibtex",
-    "sphinxext.opengraph",
     'hieroglyph',
 ]
+
+# "ablog",
+# "sphinxext.opengraph",
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates', '_build', 'Thumbs.db', '.DS_Store', "*import_posts*",
@@ -138,6 +139,9 @@ nb_render_priority = {
         )
 }
 
+
+#  --------------Slides
+
 slide_theme = 'slides'
 
 slide_theme_options = {
@@ -151,6 +155,8 @@ slide_theme_options = {
     ],
     'custom_css': 'custom.css'}
 
+slide_numbers = True
+# slide_footer = 'Integrating Ethics into Data Science Courses- Sarah M Brown'
 
 def setup(app):
     app.add_css_file('_static/custom.css')
