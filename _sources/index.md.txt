@@ -107,6 +107,15 @@ Context
 - Human subject research at C.S. Draper Laboratory
 
 ```{note}
+Note: this slide serves two purposes, it fits here, in the narrative of my development and some core examples.
+
+Also, I'll pause to acknowledge that two of these are defense contractors and that often causes people to take pause.
+
+moral vs ethical
+
+2nd: context again; of these choices my coops were in 2008,9,10; recession & war
+
+
 Hostpitals and military all have strict ethical guidelines and a culture of adhereing to that. Even if you don't agree that war is ever necessary or appropriate; the military is an example of ethics which is a set of agreed upon terms. Note that this is differnt from morals, but we will come back to that. Time in these environments exposed me to the ways that ethical expectations are promulgated in these environments and on at least the small teams that I was on this was taken very seriously and led to actual conversations about what the right way to do something was and when tasks were in gray areas, that is things that were deemed acceptable, but easily mistaken for something that would not be acceptable, or unpopular very long conversatiosn about what we did and did not do or say.
 
 
@@ -134,9 +143,13 @@ medicine again; practioners interacting with ...
 
 ````
 
+```{slide} Ethics requires *context* and is concerned with *impact*
+:class: section
+```
+
 
 ````{slide}
-> Missing context is endemic in ML/DS/AI; even in AI ethics work
+> Missing context is endemic in ML/DS/AI -- even in AI ethics work
 
 
 ```{note}
@@ -151,7 +164,7 @@ and it was the conclusion of a meta-analysis of over 500 papers from the AIES an
 
 
 
-``` -->
+```
 
 
 
@@ -168,7 +181,7 @@ Each of these is about a part of the world; DS is set of tools
 ```
 
 ````
-
+-->
 
 ```{slide} So what *can* we do?
 :class: section
@@ -198,7 +211,7 @@ Ethics as Good Pedagogy
 
 In addition to my own ethical development, I am going to pause to note in particular my training in evidence based teaching practices.
 ```
-
+````
 
 <!--
 ````{slide} Start small, then go bigger
@@ -260,6 +273,10 @@ These require:
 - no changing of datasets
 - no added modules
 
+```{note}
+All of these are based in pedagogy
+```
+
 ````
 
 
@@ -283,27 +300,44 @@ in Assignments
 
 Evaluation allows students to think about problems more deeply.
 
-It helps monitor, considering borader impact
+Fairness issues "discovered" in ML through eval
 
+It helps monitor, considering broader impact
+```
 
 `````
 
-```{slide}
+````{slide} Optimal is relative
 :class: example
-
-> Optimal is relative
-
-```
-
-
-````{slide} Talk about where data comes from
 
 
 ```{panels}
 in Instruction
 ^^^
+- Simple repeated saying
+---
+in Assignments
+^^^
+- require justification on the word "best"
+
+```
+
+```{note}
+Simple, easy to remember reminders can help students start thinking and questioning what they do.
+```
+
+
+````
+
+
+````{slide} Talk about where data comes from
+:class: strategy
+
+```{panels}
+in Instruction
+^^^
 - Discuss before loading data
-- Distribute Datasheets
+- Distribute Datasheets for Datasets
 ---
 in Assignments
 ^^^
@@ -361,14 +395,14 @@ in Assignments
 ```{slide} What will you try?
 :class: section
 
-Make your plan of action
+Make a note for one thing you will try
 
 ```
 
 
 
-```{slide} In future Semesters
-:class: section
+```{slide} Looking Forward
+:class: title
 ```
 
 
@@ -392,6 +426,7 @@ Make your plan of action
 
 
 ```{slide} Embed activities in Ethical Challenges
+:class: strategy
 
 Choose completely datasets that present ethical challenges for demonstration or assignments
 
@@ -399,17 +434,22 @@ Choose completely datasets that present ethical challenges for demonstration or 
 
 ```
 
-```{slide} In General
+`````{slide} General Strategies for Integrating Ethics
+:class: section
 
 - Emphasize Evaluation
 - Highlight Context
 - Consider downstream effects
 
+```{note}
+No modules
 ```
+
+`````
 
 
 ````{slide} Questions?
-:class: title
+:class: section
 
 brownsarahm@uri.edu
 ````
