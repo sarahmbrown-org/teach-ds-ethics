@@ -1,5 +1,8 @@
 ```{slide} Integrating Ethics into Data Science Courses
 :class: title
+
+
+
 ```
 
 
@@ -8,11 +11,11 @@
 
 I want you to leave with:
 
-* something small enough that you can do it this semester
+* something you plan to do this semester
 
-* something you can implement next semester
+* ideas to implement in your next offerings
 
-* ideas so that you can develop your own interventions over time
+* strategies so that you can more deeply embed ethics over time
 
 
 ```
@@ -31,6 +34,7 @@ The goal we have will shape how we get there
 Focusing on practitioners makes clear what aspects are and are not important we can focus only on teaching how and when to employ ethical decision making, and how to gather information and engage in the conversations.  We do not necessarily need to teach broad ethical frameworks, but how to identify when to do things.
 
 
+Sources of competence
 ```
 
 `````
@@ -39,9 +43,10 @@ Focusing on practitioners makes clear what aspects are and are not important we 
 
 ````{slide} How we will do that?
 
-- About me
-- Goals
-- Examples
+- About me & my ethics training
+- Goals & Examples for now
+- Call to Action
+- Deeper changes
 
 ```{note}
 In order to take a practitioner focused approach; I'll start with  how I developed ethical thinking skills.
@@ -78,10 +83,15 @@ In my program our first engineering in major requirement is/was engineering desi
 
 ````{slide} Correctness for Safety
 
-Building intuition
+- Learning Design through disasters
+- Importance Building intuition
+- Different types of Correct
 
 ```{note}
 hey constantly preached at us to both check our work throughly using the skills from our math classes for checking solutions, but also, to, more importantly, before getting into any algebra, do some napkin math. To have a few constants, a few settings of things memorized, or really to do problems until you had the intuition to look at an answer and know if it was off by an order of magnitude or not.
+
+
+Context
 ```
 
 ````
@@ -89,7 +99,7 @@ hey constantly preached at us to both check our work throughly using the skills 
 
 
 
-````{slide} Coops
+````{slide} Experiential Education
 
 
 - Human subject research at MGH Breast Imaging Research
@@ -98,6 +108,10 @@ hey constantly preached at us to both check our work throughly using the skills 
 
 ```{note}
 Hostpitals and military all have strict ethical guidelines and a culture of adhereing to that. Even if you don't agree that war is ever necessary or appropriate; the military is an example of ethics which is a set of agreed upon terms. Note that this is differnt from morals, but we will come back to that. Time in these environments exposed me to the ways that ethical expectations are promulgated in these environments and on at least the small teams that I was on this was taken very seriously and led to actual conversations about what the right way to do something was and when tasks were in gray areas, that is things that were deemed acceptable, but easily mistaken for something that would not be acceptable, or unpopular very long conversatiosn about what we did and did not do or say.
+
+
+
+**CONTEXT**
 ```
 ````
 
@@ -122,7 +136,7 @@ medicine again; practioners interacting with ...
 
 
 ````{slide}
-> Lack of context is a problem, in AI ethics work
+> Missing context is endemic in ML/DS/AI; even in AI ethics work
 
 
 ```{note}
@@ -140,19 +154,6 @@ and it was the conclusion of a meta-analysis of over 500 papers from the AIES an
 ``` -->
 
 
-<!--
-````{slide} Training in Instruction and Design
-
-```{note}
-In addition to my own ethical development, I am going to pause to note in particular my training in evidence based teaching practices.
-```
-
-```` -->
-
-
-
-
-
 
 ````{slide}
 
@@ -162,6 +163,8 @@ In addition to my own ethical development, I am going to pause to note in partic
 
 ```{note}
 Data science is a set of techniques that can be applied anywhere-- this is part of what makes it so exciting and engaging and fun, but those other domains: biomedicine, law, engineering, are domains of both skills and practices AND of knowledge in how the world works. Those domains interface with the world in a fundamentally different way than data science.
+
+Each of these is about a part of the world; DS is set of tools
 ```
 
 ````
@@ -185,6 +188,16 @@ This also gives you time to learn more; start by modeling what you know.
 
 ````
 
+
+````{slide}
+
+> Effective, inclusive teaching is important to me
+
+```{note}
+Ethics as Good Pedagogy
+
+In addition to my own ethical development, I am going to pause to note in particular my training in evidence based teaching practices.
+```
 
 
 <!--
@@ -230,6 +243,8 @@ Long time scales
 `````{slide} Things you can do this *semester*
 :class: section
 
+... and the next few
+
 ```{note}
 - Emphasize Evaluation
 - Highlight Context
@@ -273,6 +288,12 @@ It helps monitor, considering borader impact
 
 `````
 
+```{slide}
+:class: example
+
+> Optimal is relative
+
+```
 
 
 ````{slide} Talk about where data comes from
@@ -303,7 +324,7 @@ In Webscraping, we take a moment and look at the robots.txt and talk about why i
 :class: example
 
 
-- all assignments starting from EDA to modeling require a description of the data and what it is useful for
+- all assignments starting from loading data to modeling require a description of the data and what it is useful for
 - (new) they will do peer review on 2-3 of the data descriptions
 
 ```
@@ -333,7 +354,7 @@ in Assignments
 
 
 1. Would you feel safe if your doctor used this model?
-1. Based on the exploration of the data, can you anticipate where the model that you trained
+1. Based on the exploration of the data, can you anticipate when the model that you trained might fail?
 
 ```
 
@@ -375,6 +396,14 @@ Make your plan of action
 Choose completely datasets that present ethical challenges for demonstration or assignments
 
 
+
+```
+
+```{slide} In General
+
+- Emphasize Evaluation
+- Highlight Context
+- Consider downstream effects
 
 ```
 
