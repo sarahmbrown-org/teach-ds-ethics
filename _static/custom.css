@@ -1,7 +1,7 @@
 .layout-regular > article.current {
-  width:85%;
+  width:84%;
   height:85%%;
-  left:5%;
+  left:7%;
   margin-left: 0px;
 }
 
@@ -55,8 +55,9 @@ article.section {
 }
 
 .section h1 em {
-  color: rgb(208,166,39);
+  color: rgb(255,255,255);
 }
+/* bright yellow: rgb(208,166,39); */
 /* gold: rgb(199,147,22); */
 
 /* strats and ex */
